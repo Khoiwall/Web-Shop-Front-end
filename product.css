@@ -1,0 +1,101 @@
+.header{
+    width: 100%;
+}
+
+.top-header{
+    background-color: rgb(252, 215, 221);
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.information span{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.information span:not(:last-child){
+    padding-right: 15px;
+}
+
+.change-word{
+    color: black;
+}
+
+.hover-color-darkred li a:hover{
+    color: rgb(179, 6, 6);
+}
+
+.item-big{
+    color: black;
+    font-size: 20px;
+}
+
+.item-shop a{
+    padding: 10px;
+    width: 38px;
+    height: 46px;
+    text-decoration: none;
+}
+
+.item-shop a:hover .item-big{
+    color: red;
+}
+
+.item-shop a:first-child{
+    display: none;
+}
+
+#mobile-menu{
+    cursor: pointer;
+}
+
+.appear_menu_mobiel ul{
+    display: none;
+}
+
+@media only screen and (max-width: 770px){
+    .top-header{
+        display: none;
+    }
+
+    .item-shop a{
+        padding: 0px;
+        width: 38px;
+        height: 46px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .listMenu ul{
+        display: none;
+    }
+
+    .item-shop a:first-child{
+        display: inline;
+    }
+
+    .open ul{
+        display: block;
+        width: 100%;
+    }
+
+    .open{
+        position: absolute;
+        top: 85px;
+        left: 20px;
+        width: 90%;
+        z-index: 2;
+    }
+
+    .open ul li:hover{
+        background-color: rgb(238, 235, 235);
+    }
+
+    .appear_menu_mobiel{
+        background-color: #ffffff;
+    }
+}

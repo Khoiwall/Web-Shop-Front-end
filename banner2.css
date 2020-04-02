@@ -1,0 +1,48 @@
+.slider{
+    background-color: #eae2d8;
+}
+
+.bannerOneContent{
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+.bannerOneContent h1{
+    font-weight: 700;
+    margin-bottom: 33px;
+    text-transform: uppercase, initial;
+    font-family: "Dancing Script", cursive;
+}
+
+.bannerOneContent h4{
+    margin-bottom: 54px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.bannerOneContent a{
+    font-size: 30px;
+}
+.bannerOneContent a:hover{
+    color: rgb(40, 40, 255);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    transition: 1.5s;
+}
+
+@media only screen and (max-width: 766px){
+    .col-md-6{
+        margin-top: 40px;
+    }
+    .bannerOneContent{
+        float: none;
+    }
+}
+.One{
+    height: 476.89px;
+}
+
+.slider:nth-child(2){
+    position: absolute;
+    top: 1500.5px;
+}

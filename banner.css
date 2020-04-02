@@ -1,0 +1,91 @@
+section{
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.banner{
+    position: relative;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content span{
+    line-height: 70px;
+}
+
+.big-size-more{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 45px;
+}
+.banner-content a:hover{
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: rgb(6, 48, 240);
+    transition: 1s;
+}
+
+ul{
+    list-style: none;
+}
+
+.support ul li:nth-child(1){
+    font-weight: 700;
+    border-bottom: 1px solid rgb(247, 247, 185);
+    width: 75px;
+    position: relative;
+}
+
+ul li:nth-child(1) p{
+    margin-bottom: 0px;
+}
+
+.support ul li:nth-child(2), .theRow ul li:nth-child(2), .theRowDiff ul li:nth-child(2){
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: rgb(19, 6, 6);
+}
+
+.support p{
+    color: #e6e0e0;
+}
+
+.theRow p, .theRow a, .theRowDiff p, .theRowDiff a{
+    color:  #e6e0e0;
+}
+
+.theRow a:hover, .theRowDiff a:hover{
+    text-decoration: none;
+    color: rgb(252, 174, 145);
+}
+.theRow ul li{
+    line-height: 30px;
+}
+
+.theRow ul li:nth-child(1), .support ul li:nth-child(1){
+    font-weight: 700;
+    border-bottom: 1px solid rgb(247, 247, 185);
+    position: relative;
+    width: 75px;
+    height: 25px;
+}
+
+.theRowDiff ul li:nth-child(1){
+    font-weight: 700;
+    border-bottom: 1px solid rgb(247, 247, 185);
+    position: relative;
+    width: 50px;
+    height: 25px;
+}

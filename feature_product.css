@@ -1,0 +1,77 @@
+.Featured{
+    padding: 50px 0px;
+}
+
+.sec-heading h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.sec-heading{
+    margin-bottom: 75px;
+}
+
+.icon-active .icon i{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-size: 30px;
+    background-color: #ffffff;
+}
+
+.icon-active .icon i:hover{
+    color: #ffffff;
+    background-color: rgb(248, 70, 70);
+}
+
+.icon-active{
+    opacity: 0;
+    text-align: center !important;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.product-thumb:hover .icon-active{
+    opacity: 1;
+    transition: 2s;
+}
+
+.product-thumb{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.content-product{
+    text-align: center;
+}
+
+.far{
+    color: black;
+}
+
+.name-product a{
+    color: rgb(139, 139, 138);
+    text-decoration: none;
+}
+
+.name-product a:hover{
+    color: rgb(248, 48, 48);
+    text-decoration: none;
+}
+
+.price{
+    font-weight: bolder;
+}

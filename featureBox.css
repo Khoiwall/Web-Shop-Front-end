@@ -1,0 +1,43 @@
+.featureBox .feat-icon{
+    width: 56px;
+    height: 41px;
+    max-width: 56px;
+    margin: 0px auto 26px;
+    vertical-align: middle;
+}
+
+.featureBox h5{
+    font-size: 18px;
+}
+
+.featureBox{
+    border: 1px solid #ebeef0;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+}
+
+.content-trending h5{
+    font-size: 18px;
+    text-align: center;
+}
+
+.ratingOne{
+    text-align: center;
+}
+
+.price{
+    padding: 10px auto 0px;
+    text-align: center;
+}
+
+.ratingOne{
+    direction: rtl;
+    position: relative;
+}
+
+.ratingOne  i{
+    width: 1.1rem;
+}
+
+.ratingOne > i:hover, .ratingOne > i:hover ~ i{ color: red; }
